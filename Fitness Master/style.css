@@ -1,0 +1,107 @@
+body{
+    font-family:'baloo Bhai 2', cursive;
+    margin: 0;
+    padding: 0;
+    background: url(images/bf.jpg);
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top:20px;
+
+ }
+ .left div{
+     font-size: 20px;
+     margin-top: -15px;
+    margin-left:-14px;
+ }
+ .left img{
+     width: 70px;
+ }
+
+.mid{
+    display:block;
+    margin:20px auto;
+    width: 50%;
+
+
+}
+.right{
+    position: absolute;
+    display: inline-block;
+    right: 34px;
+    top:20px;
+
+}
+.navbar
+{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding:25px 20px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: gray;
+    
+}
+.btn{
+    font-family:' Baloo Bhai 2', cursive;
+    margin:10px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    font-size:15px;
+    cursor: pointer;
+}
+.container{
+    border: 4px solid white;
+border-radius: 10px;
+width: 500px;
+height: 400px;
+margin-left: 80px;
+margin-top: 39px;
+}
+.container h3{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.box
+{
+    margin-left: 108px;
+margin-top: -9px;
+font-family: 'baloo Bhai 2', cursive;
+font-size: 29px;
+border: none;
+border-radius: 10px;
+padding: 4px 3px 6px 26px;
+box-sizing: content-box;
+
+}
+.but
+{
+    
+        background-color: black;
+color: white;
+font-family: 'baloo Bhai 2', cursive;
+margin-left: 184px;
+margin-right: 262px;
+display: block;
+cursor: pointer;
+border-radius: 10px;
+}
+.but:hover{
+    background-color: gray;
+}
+
+
